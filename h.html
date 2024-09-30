@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Platform</title>
+    <link rel="stylesheet" href="ss.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Social Hub</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="profile.html">Profile</a>
+                <a href="messages.html">Messages</a>
+                <a href="notifications.html">Notifications</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <!-- Create Post Section -->
+            <section id="create-post">
+                <h2>Create a Post</h2>
+                <form id="post-form">
+                    <textarea id="post-content" placeholder="What's on your mind?" required></textarea>
+                    <button type="submit">Post</button>
+                </form>
+            </section>
+
+            <!-- Posts Feed -->
+            <section id="posts-feed">
+                <h2>Recent Posts</h2>
+                <div class="post">
+                    <h3>John Doe</h3>
+                    <p>Enjoying a beautiful day at the beach!</p>
+                </div>
+              
+                  <div class="post">
+                    <h3>Jane Smith</h3>
+                    <p>Excited to launch my new project today!</p>
+                </div>
+                  <div class="post">
+                    <h3>Sweety</h3>
+                    <p>Its so boring ,lets talk something??</p>
+                </div>
+                <div id="new-posts-container">
+                    <!-- New user-generated posts will appear here -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Social Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="scc.js"></script>
+</body>
+</html>
+
